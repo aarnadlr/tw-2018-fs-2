@@ -7740,12 +7740,16 @@ body {
 
 nav {
   background: transparent;
-  z-index: 999; }
+  z-index: 999;
+  max-width: 1200px; }
   nav a {
     text-decoration: none !important;
     transition: all .25s ease; }
   nav a:hover {
     color: #1A9AFC; }
+
+section {
+  max-width: 1200px; }
 
 @media screen and (min-width: 30em) {
   nav {
