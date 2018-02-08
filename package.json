@@ -1,13 +1,13 @@
 {
-  "name": "fastshell",
-  "title": "Fiercely quick and opinionated front-ends",
-  "author": "Hossein Karami",
-  "url": "https://HosseinKarami.github.io/fastshell",
-  "version": "1.0.5",
+  "name": "fresh-build",
+  "title": "fresh-build",
+  "author": "Aaron Adler",
+  "url": "https://aaronadler.com",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
+    "url": ""
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
@@ -22,5 +22,9 @@
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.8",
     "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "ibm-design-colors": "^2.0.4",
+    "tachyons-sass": "^4.9.2"
   }
 }

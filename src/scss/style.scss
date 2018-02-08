@@ -4,6 +4,17 @@
 
 @import 'mixins/_position.scss';
 
+
+
+// Keep vendor above "_defaults.scss" and "_app.scss" TO ACCESS IBM COLORS
+//----------------------------------*\
+// VENDOR
+//----------------------------------*/
+
+@import 'vendor/_external.scss';
+
+
+
 //----------------------------------*\
 // CONFIG MODULES
 //----------------------------------*/
@@ -23,6 +34,9 @@
 @import 'partials/_main.scss';
 @import 'partials/_footer.scss';
 
+
+
+
 //----------------------------------*\
 // OBJECTS & MODULES
 //----------------------------------*/
@@ -32,14 +46,9 @@
 @import 'modules/_lists.scss';
 @import 'modules/_typography.scss';
 @import 'modules/_misc.scss';
-@import 'modules/_app.scss';
+@import 'modules/_app.scss';          // <---MAIN Sass Styles file; Goes at the bottom to override everything.
 
 // Enhancement modules
 @import 'modules/_breakpoints.scss';
 @import 'modules/_print.scss';
 
-//----------------------------------*\
-// VENDOR
-//----------------------------------*/
-
-@import 'vendor/_external.scss';

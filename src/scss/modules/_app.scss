@@ -1,0 +1,186 @@
+// COLORS
+// vvv DodgerBlue
+$lightblue: #1A9AFC;  
+
+// SVG COLORS
+.darkOrange{fill:#ffa200;}
+.lightOrange{fill:#ffd26e;}
+.logo-blue{fill:#082999;}
+.svgWhite{fill:#ffffff;}
+
+// BOOTSTRAP NOT IN THIS FILE. IT IS MANAGED BY GULPFILE.JS.  TO MANAGE BOOTSTRAP PARTIALS, revise "node_modules/bootstrap/ scss/bootstrap.scss"
+
+
+body{
+  background: #092B99;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #092B99, #045BC6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #092B99, #045BC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  height: 100%;
+  margin: 0;
+  // background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+nav{
+  background: transparent;
+  // opacity: 1;
+  z-index: 999;
+  a{
+    text-decoration: none!important;
+    transition: all .25s ease;
+  }
+  a:hover{
+    // color: $goldhover;
+    color: $lightblue;
+  }
+}
+
+@media #{$breakpoint-not-small} {
+
+  nav{
+    background: rgba(11, 47, 162, 0.9);
+  }
+}
+
+
+// .mont{
+//   font-family: $mont;
+// }
+.lora{
+  font-family: $lora;
+}
+
+.prox {
+  font-family: "proxima-nova",sans-serif;
+}
+
+
+
+.darkgold{
+  color:$darkgold;
+}
+
+.wrapper{
+  // margin: 90px;
+  display:flex;
+  background: pink;
+  justify-content:center;
+}
+
+
+// BROWSERSYNC POP-UP
+// #__bs_notify__ {
+//   top:95% !important;
+//   right: 10px !important;
+//   border-radius: 15px !important;
+//   height:60px !important; }
+
+
+.logo {
+  display: block;
+  position: relative;
+  top: -2px;
+  height: auto;
+  width: 140px;
+  margin-right: 15px;
+}
+
+// .circle, .rect{
+//   fill: white;
+//   transition: all .5s ease-out;
+//   opacity: .1;
+// }
+
+// .circle:hover, .rect:hover{
+//   transform: translate(0, -15px);
+//   opacity: .3;
+// }
+
+
+
+
+.icon{
+  transition: all .5s ease-out;
+  opacity: .85;
+}
+.icon:hover{
+  transform: translate(0, -12px);
+  opacity: 1;
+}
+
+
+
+// #icon-01e {
+//   position:relative;
+//   left:-25px;
+// }
+#icon-03e {
+  position:relative;
+  left:-15px;
+}
+
+
+
+// SIZE: "NOT-SMALL"
+@media screen and (min-width: 30em) {
+// #icon-01e {
+//   left:-12px;
+// }
+#icon-03e {
+  left:-10px;
+}
+
+}
+
+
+.smallBlue{
+  // .f6 { font-size: .875rem; }
+  // .f7 { font-size: .75rem; }
+  // .f8 { font-size: .65rem; }
+  font-size: .875rem;
+  // font-size: .75rem;
+  color: $lightblue;
+  letter-spacing: .2em;
+}
+
+// .tracked { letter-spacing: .1em; }
+// .tracked-tight { letter-spacing: -.05em; }
+// .tracked-mega { letter-spacing: .25em; }
+
+.up8px{
+  position: relative;
+  bottom:8px;
+}
+
+.down15px{
+  position: relative;
+  top:15px;
+}
+
+#svgLogo, #svgLogo2 {
+  cursor: pointer;
+}
+
+// #logoSection{
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 2fr;
+//   grid-template-rows: 100px 200px 200px;
+//   // grid-gap: 15px;    <--BOTH TOGETHER
+//   grid-column-gap: 15px;
+//   grid-row-gap: 15px;
+// }
+
+// #logoSection h1{
+
+// }
+
+#graphicDiv1{
+  max-width:300px;
+}
+
+#graphicDiv2{
+  max-width:290px;
+}

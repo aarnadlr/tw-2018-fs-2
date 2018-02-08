@@ -1,3 +1,17 @@
 $base : #F7F6F0;
 $darken : darken(#F7F6F0 , 30%);
 $back: darken(#F7F6F0, 40%);
+
+
+
+// VARIABLES
+// $mont: 'Montserrat', sans-serif;
+$lora: 'Lora', serif;
+// $goldhover: color('gold', 40, $alpha: .8);
+
+$goldhover: color('blue', 40, $alpha: 1); //#5392ff
+
+
+$goldhover2: color('gold', 50, $alpha: 1);
+$darkgold: color('gold', 60, $alpha: 1);
+$prox: "proxima-nova",sans-serif;
