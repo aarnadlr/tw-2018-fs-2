@@ -18,7 +18,14 @@ var masterTl = new TimelineMax(
   }
 ).timeScale(1.25);
 
-
+var masterTl2 = new TimelineMax(
+  {paused: false,
+  // repeat:-1, //looping
+  repeat:0,
+  delay: 0,
+  onComplete: function() {}
+  }
+).timeScale(1.25);
 
 // var allCubes = document.getElementById('allCubes');
 // allCubes.style.fill = "white";
@@ -46,14 +53,30 @@ masterTl
 {autoAlpha: 0},{autoAlpha: 1}, // POSITION
 .05                             //**STAGGERDELAY
 );
-// .from(
-//       'h1',
-//       .5,
-//       {opacity: 0,
-//       y:50,
-//       delay:-.5
-//       }
-//     )
+
+
+masterTl2
+.staggerFromTo(
+["#cube1-footer", "#cube2-footer", "#cube3-footer", "#cube4-footer", "#cube5-footer"],
+0.25,                             // DURATION OF ANIMATION (OPACITY FADE)
+{autoAlpha: 0},{autoAlpha: 1}, // POSITION
+0.15                             //**STAGGERDELAY
+)
+
+.to(["#cube1-footer", "#cube2-footer", "#cube3-footer", "#cube4-footer", "#cube5-footer"], 1, {x:'-=355',ease:Expo.easeInOut} )
+
+.staggerFromTo(
+["#T-footer", "#R-footer", "#A-footer", "#D1-footer", "#E-footer", "#W-footer", "#I-footer", "#N-footer", "#D2-footer"],
+0.5,                             // DURATION OF ANIMATION (OPACITY FADE)
+{autoAlpha: 0},{autoAlpha: 1}, // POSITION
+.05                             //**STAGGERDELAY
+);
+
+
+
+
+
+
 
 
 // CSS-STYLE HOVER EFFECT in GSAP:
@@ -82,9 +105,9 @@ masterTl.play();
 
 svgLogo2.onclick = function(){
 // On click, RESTART
-masterTl.restart();
+masterTl2.restart();
 //*THEN* PLAY
-masterTl.play();
+masterTl2.play();
 };
 
 
