@@ -7741,7 +7741,7 @@ body {
 nav {
   background: transparent;
   z-index: 999;
-  max-width: 1200px; }
+  max-width: 1100px; }
   nav a {
     text-decoration: none !important;
     transition: all .25s ease; }
@@ -7749,7 +7749,7 @@ nav {
     color: #1A9AFC; }
 
 section {
-  max-width: 1200px; }
+  max-width: 1100px; }
 
 @media screen and (min-width: 30em) {
   nav {
