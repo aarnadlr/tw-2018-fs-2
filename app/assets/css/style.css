@@ -7183,6 +7183,12 @@ code, .code {
 .w4d {
   width: 14rem; }
 
+.w4e {
+  width: 15rem; }
+
+.w4f {
+  width: 15.5rem; }
+
 .w6 {
   width: 16rem; }
 
@@ -7215,6 +7221,10 @@ code, .code {
     width: 12rem; }
   .w4d-ns {
     width: 14rem; }
+  .w4e-ns {
+    width: 15rem; }
+  .w4f-ns {
+    width: 15.5rem; }
   .w6-ns {
     width: 16rem; }
   .w7-ns {
@@ -7748,7 +7758,7 @@ nav {
   nav a:hover {
     color: #1A9AFC; }
 
-section {
+section, footer {
   max-width: 1100px; }
 
 @media screen and (min-width: 44em) {
@@ -7763,13 +7773,6 @@ section {
 
 .darkgold {
   color: #74521b; }
-
-.wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  background: pink;
-  -ms-flex-pack: center;
-      justify-content: center; }
 
 .logo {
   display: block;
@@ -7808,6 +7811,10 @@ section {
 .down15px {
   position: relative;
   top: 15px; }
+
+.down10px {
+  position: relative;
+  top: 10px; }
 
 #svgLogo, #svgLogo2 {
   cursor: pointer; }
