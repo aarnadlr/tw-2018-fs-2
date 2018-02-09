@@ -6,7 +6,7 @@
 
 
 
-// Keep vendor above "_defaults.scss" and "_app.scss" TO ACCESS IBM COLORS
+// Keep vendor above "_defaults.scss" and "_app.scss" TO ACCESS IBM COLORS from "_app.scss"
 //----------------------------------*\
 // VENDOR
 //----------------------------------*/
@@ -47,6 +47,7 @@
 @import 'modules/_typography.scss';
 @import 'modules/_misc.scss';
 @import 'modules/_app.scss';          // <---MAIN Sass Styles file; Goes at the bottom to override everything.
+
 
 // Enhancement modules
 @import 'modules/_breakpoints.scss';
