@@ -7235,6 +7235,12 @@ code, .code {
     height: 20rem; }
   .h7-ns {
     height: 24rem; }
+  .h8-ns {
+    height: 26rem; }
+  .h9-ns {
+    height: 28rem; }
+  .h10-ns {
+    height: 30rem; }
   .w-42-ns {
     width: 42%; }
   .w-44-ns {
@@ -7260,7 +7266,13 @@ code, .code {
   .f8-ns {
     font-size: .65rem; }
   .f9-ns {
-    font-size: .55rem; } }
+    font-size: .55rem; }
+  .pt6b-ns {
+    padding-top: 10rem; }
+  .pt6c-ns {
+    padding-top: 12rem; }
+  .pt6d-ns {
+    padding-top: 14rem; } }
 
 /* Height Scale */
 .h6 {
@@ -7268,6 +7280,15 @@ code, .code {
 
 .h7 {
   height: 24rem; }
+
+.h8 {
+  height: 26rem; }
+
+.h9 {
+  height: 28rem; }
+
+.h10 {
+  height: 30rem; }
 
 .w-42 {
   width: 42%; }
@@ -7311,6 +7332,26 @@ code, .code {
 
 .f9 {
   font-size: .55rem; }
+
+/*
+   SPACING / PADDING
+   Docs: http://tachyons.io/docs/layout/spacing/
+
+   An eight step powers of two scale ranging from 0 to 16rem.
+
+   Base:
+     p = padding
+     m = margin
+
+*/
+.pt6b {
+  padding-top: 10rem; }
+
+.pt6c {
+  padding-top: 12rem; }
+
+.pt6d {
+  padding-top: 14rem; }
 
 .clear:before, .clear:after {
   content: ' ';

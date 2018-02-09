@@ -76,6 +76,9 @@
 
   .h6-ns { height: 20rem; }         //ADDED
   .h7-ns { height: 24rem; }         //ADDED
+  .h8-ns { height: 26rem; }      //ADDED
+  .h9-ns { height: 28rem; }      //ADDED
+  .h10-ns { height: 30rem; }      //ADDED
 
   .w-42-ns { width: 42%; }          //ADDED
   .w-44-ns { width: 44%; }          //ADDED
@@ -94,6 +97,10 @@
   .f8-ns { font-size: .65rem; }     //ADDED
   .f9-ns { font-size: .55rem; }     //ADDED
 
+  // SPACING / PADDING:
+  .pt6b-ns { padding-top: 10rem; }         //ADDED
+  .pt6c-ns { padding-top: 12rem; }         //ADDED
+  .pt6d-ns { padding-top: 14rem; }         //ADDED
 }
 
 
@@ -105,6 +112,9 @@
 // .h5 { height: 16rem; }
    .h6 { height: 20rem; }      //ADDED
    .h7 { height: 24rem; }      //ADDED
+   .h8 { height: 26rem; }      //ADDED
+   .h9 { height: 28rem; }      //ADDED
+   .h10 { height: 30rem; }      //ADDED
 
 
 // CAUTION: THESE WILL CAUSE SCALING AT EVERY INCREMENTAL SCREENSIZE
@@ -156,3 +166,30 @@
 // .f7 { font-size: .75rem; }
    .f8 { font-size: .65rem; }
    .f9 { font-size: .55rem; }
+
+
+
+   
+
+/*
+   SPACING / PADDING
+   Docs: http://tachyons.io/docs/layout/spacing/
+
+   An eight step powers of two scale ranging from 0 to 16rem.
+
+   Base:
+     p = padding
+     m = margin
+
+*/
+// .pt0 { padding-top: 0; }
+// .pt1 { padding-top: .25rem; }
+// .pt2 { padding-top: .5rem; }
+// .pt3 { padding-top: 1rem; }
+// .pt4 { padding-top: 2rem; }
+// .pt5 { padding-top: 4rem; }
+// .pt6  { padding-top: 8rem; }
+.pt6b { padding-top: 10rem; }         //ADDED
+.pt6c { padding-top: 12rem; }         //ADDED
+.pt6d { padding-top: 14rem; }         //ADDED
+// .pt7 { padding-top: 16rem; }        
