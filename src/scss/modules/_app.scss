@@ -300,3 +300,17 @@ section, footer{
   //  fill: purple;
    fill:#0098ff;
  }
+
+ a{
+  color: white;
+  opacity: 1;
+  transition: all .3s ease;
+   text-decoration: none;
+ }
+ a:visited, a:active {
+  color: white;
+}
+
+footer a:hover{
+  opacity: 0.5;
+}

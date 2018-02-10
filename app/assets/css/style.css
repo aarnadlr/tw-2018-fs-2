@@ -7949,6 +7949,18 @@ section, footer {
 .x-mark {
   fill: #0098ff; }
 
+a {
+  color: white;
+  opacity: 1;
+  transition: all .3s ease;
+  text-decoration: none; }
+
+a:visited, a:active {
+  color: white; }
+
+footer a:hover {
+  opacity: 0.5; }
+
 @media print {
   * {
     background: transparent !important;
