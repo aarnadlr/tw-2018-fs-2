@@ -39,10 +39,6 @@ nav{
   }
 }
 
-section, footer{
-  max-width: 1100px;
-}
-
 
 
 
@@ -129,11 +125,11 @@ section, footer{
 
 .icon{
   transition: all .5s ease-out;
-  opacity: .85;
+  // opacity: .85;
 }
 .icon:hover{
   transform: translate(0, -12px);
-  opacity: 1;
+  // opacity: 1;
 }
 
 
@@ -166,6 +162,7 @@ section, footer{
   // .f7 { font-size: .75rem; }
   // .f8 { font-size: .65rem; }
   font-size: .875rem;
+  font-weight: bold;
   // font-size: .75rem;
   color: $lightblue;
   letter-spacing: .2em;
@@ -213,4 +210,89 @@ section, footer{
 
 #graphicDiv2{
   max-width:290px;
+}
+
+
+
+
+
+section, footer{
+  max-width: 1100px;
+}
+
+
+.mw1100{
+  max-width: 1100px;
+}
+
+.twoColGrid{
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-areas:
+      "blueHeader"
+      "textBlock"
+      "item1"
+      "item2"
+      "item3"
+      "item4"
+      "item5"
+      "item6";
+  grid-gap: 10px 40px;
+
+  
+// CUSTOM TACHYONS *NS* BREAKPOINT
+// @media screen and (min-width: 44em){
+@media #{$breakpoint-not-small}{
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+      "blueHeader blueHeader"
+      "textBlock item1"
+      "textBlock item2"
+      "textBlock item3"
+      "textBlock item4"
+      "textBlock item5"
+      "textBlock item6";
+  grid-gap: 10px 40px;
+  }
+
+}
+
+// CUSTOM TACHYONS *NS* BREAKPOINT
+// $breakpoint-not-small: 'screen and (min-width: 44em)';
+
+
+#LargeTextLeft{
+	grid-area: textBlock;
+}
+
+#item1{
+	grid-area: item1;
+}
+#item2{
+	grid-area: item2;
+}
+#item3{
+	grid-area: item3;
+}
+#item4{
+	grid-area: item4;
+}
+#item5{
+	grid-area: item5;
+}
+#item6{
+	grid-area: item6;
+}
+
+.listItem{
+
+  font-size: 18px;
+  
+  @media #{$breakpoint-not-small}{
+    font-size: 13px;
+  }
+}
+.listItem svg,{
+  width:15px;
 }

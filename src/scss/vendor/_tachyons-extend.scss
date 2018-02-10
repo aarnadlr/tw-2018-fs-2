@@ -23,6 +23,9 @@
    WIDTHS
 */
 /* Width Scale */
+.w025 { width: 0.25rem; }
+.w050 { width: 0.50rem; }
+.w075 { width: 0.75rem; }
 // .w1 { width: 1rem; }
 // .w2 { width: 2rem; }
 .w2b { width: 2.5rem; }
@@ -58,6 +61,12 @@
 
   
   // WIDTHS
+  .w025-ns { width: 0.25rem; }
+  .w050-ns { width: 0.50rem; }
+  .w075-ns { width: 0.75rem; }
+  // .w1 { width: 1rem; }
+  // .w2 { width: 2rem; }
+  // .w3 { width: 4rem; }
   .w2b-ns { width: 2.5rem; }
   .w2c-ns { width: 3rem; }
   .w2d-ns { width: 3.5rem; }
@@ -101,6 +110,11 @@
   .pt6b-ns { padding-top: 10rem; }         //ADDED
   .pt6c-ns { padding-top: 12rem; }         //ADDED
   .pt6d-ns { padding-top: 14rem; }         //ADDED
+
+  // PADDING BOTTOM
+  .pb6b-ns { padding-bottom: 10rem; }         //ADDED
+  .pb6c-ns { padding-bottom: 12rem; }         //ADDED
+  .pb6d-ns { padding-bottom: 14rem; }         //ADDED
 }
 
 
@@ -193,3 +207,8 @@
 .pt6c { padding-top: 12rem; }         //ADDED
 .pt6d { padding-top: 14rem; }         //ADDED
 // .pt7 { padding-top: 16rem; }        
+
+// PADDING BOTTOM
+.pb6b { padding-bottom: 10rem; }         //ADDED
+.pb6c { padding-bottom: 12rem; }         //ADDED
+.pb6d { padding-bottom: 14rem; }         //ADDED
