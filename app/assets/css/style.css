@@ -7303,6 +7303,16 @@ code, .code {
     padding-top: 12rem; }
   .pt6d-ns {
     padding-top: 14rem; }
+  .pt8-ns {
+    padding-top: 17rem; }
+  .pt9-ns {
+    padding-top: 18rem; }
+  .pt10-ns {
+    padding-top: 19rem; }
+  .pt11-ns {
+    padding-top: 20rem; }
+  .pt12-ns {
+    padding-top: 21rem; }
   .pb6b-ns {
     padding-bottom: 10rem; }
   .pb6c-ns {
@@ -7397,6 +7407,21 @@ code, .code {
 
 .pt6d {
   padding-top: 14rem; }
+
+.pt8 {
+  padding-top: 17rem; }
+
+.pt9 {
+  padding-top: 18rem; }
+
+.pt10 {
+  padding-top: 19rem; }
+
+.pt11 {
+  padding-top: 20rem; }
+
+.pt12 {
+  padding-top: 21rem; }
 
 .pb6b {
   padding-bottom: 10rem; }
@@ -7889,7 +7914,7 @@ body {
   z-index: 999; }
   @media screen and (min-width: 44em) {
     .navWrapper {
-      background: rgba(12, 48, 166, 0.9); } }
+      background: rgba(13, 48, 162, 0.9); } }
 
 nav a {
   text-decoration: none !important;
