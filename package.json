@@ -1,10 +1,10 @@
 {
-  "name": "fresh-build",
-  "title": "fresh-build",
+  "name": "Tradewind Markets",
+  "title": "Tradewind Markets: Creating a simple, secure and efficient physical gold market",
   "author": "Aaron Adler",
-  "url": "https://aaronadler.com",
+  "url": "https://tradewindmarkets.com",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "none",
   "repository": {
     "type": "git",
     "url": ""

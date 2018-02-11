@@ -1,10 +1,10 @@
 /*!
- * fresh-build
- * fresh-build
- * https://aaronadler.com
+ * Tradewind Markets
+ * Tradewind Markets: Creating a simple, secure and efficient physical gold market
+ * https://tradewindmarkets.com
  * @author Aaron Adler
  * @version 1.0.0
- * Copyright 2018. MIT licensed.
+ * Copyright 2018. none licensed.
  */
 // (function ($, window, document, undefined) {
 
