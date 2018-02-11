@@ -331,3 +331,22 @@ section, footer{
 footer a:hover{
   opacity: 0.5;
 }
+
+.DG4-col__item{
+  font-size: 1.2rem;
+
+  @media #{$breakpoint-not-small}{
+    font-size: .75rem;
+  }
+}
+
+
+.checkmark{
+  width: 1rem;
+  padding-top:1.2rem;
+}
+
+.x-mark{
+  width: 1rem;
+  padding-top:1.2rem;
+}

@@ -45,8 +45,8 @@
 @import 'modules/_inputs.scss';
 @import 'modules/_lists.scss';
 @import 'modules/_typography.scss';
-@import 'modules/_misc.scss';
-@import 'modules/_app.scss';          // <---MAIN Sass Styles file; Goes at the bottom to override everything.
+@import 'modules/_misc.scss';         // <-- Selection Highlight color is in here
+@import 'modules/_app.scss';          // <-- MAIN Sass Styles file; Goes at the bottom to override everything.
 
 
 // Enhancement modules
