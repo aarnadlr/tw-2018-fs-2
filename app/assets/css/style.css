@@ -7199,7 +7199,7 @@ code, .code {
   width: 15.5rem; }
 
 .w6 {
-  width: 16rem; }
+  width: 18rem; }
 
 .w7 {
   width: 20rem; }
@@ -7250,7 +7250,7 @@ code, .code {
   .w4f-ns {
     width: 15.5rem; }
   .w6-ns {
-    width: 16rem; }
+    width: 18rem; }
   .w7-ns {
     width: 20rem; }
   .w7b-ns {
@@ -8071,6 +8071,9 @@ footer a:hover {
 .x-mark {
   width: 1rem;
   padding-top: 1.2rem; }
+
+.personDiv img {
+  width: 350px; }
 
 @media print {
   * {
