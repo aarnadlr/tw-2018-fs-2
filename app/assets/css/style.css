@@ -8072,8 +8072,8 @@ footer a:hover {
   width: 1rem;
   padding-top: 1.2rem; }
 
-.personDiv img {
-  width: 350px; }
+.person {
+  margin-bottom: 6rem; }
 
 @media print {
   * {
