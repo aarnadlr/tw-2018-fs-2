@@ -8098,6 +8098,9 @@ footer a:hover {
   min-width: 190px;
   padding-right: 10px; }
 
+#platformWrapper {
+  max-width: 1100px; }
+
 @media print {
   * {
     background: transparent !important;
