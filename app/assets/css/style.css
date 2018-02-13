@@ -8064,9 +8064,6 @@ footer a:hover {
     .DG4-col__item {
       font-size: 0.75rem; } }
 
-.ourplat-checkmark {
-  width: 1rem; }
-
 .checkmark {
   width: 1rem;
   padding-top: 1.2rem; }
@@ -8084,6 +8081,22 @@ footer a:hover {
 
 #openPositions a:hover {
   opacity: 0.4; }
+
+.ourplat-checkmark {
+  min-width: 25px;
+  padding-top: 20px;
+  max-width: 30px;
+  padding-right: 10px; }
+  @media screen and (min-width: 44em) {
+    .ourplat-checkmark {
+      min-width: 25px;
+      padding-top: 20px;
+      max-width: 40px;
+      padding-right: 10px; } }
+
+.ourPlatItemWrapper {
+  min-width: 190px;
+  padding-right: 10px; }
 
 @media print {
   * {
