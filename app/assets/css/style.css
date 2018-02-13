@@ -7901,10 +7901,10 @@ textarea {
   fill: #fff; }
 
 body {
-  background: #092B99;
+  background: #092b99;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #092B99, #045BC6);
+  background: linear-gradient(to bottom, #092b99, #045bc6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
   margin: 0;
@@ -7918,10 +7918,10 @@ body {
 
 nav a {
   text-decoration: none !important;
-  transition: all .25s ease; }
+  transition: all 0.25s ease; }
 
 nav a:hover {
-  color: #1A9AFC; }
+  color: #1a9afc; }
 
 .navbar {
   max-width: 1100px;
@@ -7931,7 +7931,7 @@ nav a:hover {
   font-family: "Lora", serif; }
 
 .prox {
-  font-family: "proxima-nova",sans-serif; }
+  font-family: "proxima-nova", sans-serif; }
 
 .darkgold {
   color: #74521b; }
@@ -7945,7 +7945,7 @@ nav a:hover {
   margin-right: 15px; }
 
 .icon {
-  transition: all .5s ease-out; }
+  transition: all 0.5s ease-out; }
 
 .icon:hover {
   -ms-transform: translate(0, -12px);
@@ -7960,10 +7960,10 @@ nav a:hover {
     left: -10px; } }
 
 .smallBlue {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: bold;
-  color: #1A9AFC;
-  letter-spacing: .2em; }
+  color: #1a9afc;
+  letter-spacing: 0.2em; }
 
 .up8px {
   position: relative;
@@ -7977,7 +7977,8 @@ nav a:hover {
   position: relative;
   top: 10px; }
 
-#svgLogo, #svgLogo2 {
+#svgLogo,
+#svgLogo2 {
   cursor: pointer; }
 
 #graphicDiv1 {
@@ -7986,7 +7987,8 @@ nav a:hover {
 #graphicDiv2 {
   max-width: 290px; }
 
-section, footer {
+section,
+footer {
   max-width: 1100px; }
 
 .mw1100 {
@@ -8046,10 +8048,11 @@ section, footer {
 a {
   color: white;
   opacity: 1;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   text-decoration: none; }
 
-a:visited, a:active {
+a:visited,
+a:active {
   color: white; }
 
 footer a:hover {
@@ -8059,7 +8062,7 @@ footer a:hover {
   font-size: 1.2rem; }
   @media screen and (min-width: 44em) {
     .DG4-col__item {
-      font-size: .75rem; } }
+      font-size: 0.75rem; } }
 
 .ourplat-checkmark {
   width: 1rem; }
@@ -8074,6 +8077,13 @@ footer a:hover {
 
 .person {
   margin-bottom: 6rem; }
+
+.topSpacer {
+  height: 70px;
+  width: 1100px; }
+
+#openPositions a:hover {
+  opacity: 0.4; }
 
 @media print {
   * {

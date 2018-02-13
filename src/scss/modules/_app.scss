@@ -1,46 +1,77 @@
 // COLORS
 // vvv DodgerBlue
-$lightblue: #1A9AFC;  
+$lightblue: #1a9afc;
 
 // SVG COLORS
-.darkOrange{fill:#ffa200;}
-.lightOrange{fill:#ffd26e;}
-.logo-blue{fill:#082999;}
-.svgWhite{fill:#ffffff;}
+.darkOrange {
+  fill: #ffa200;
+}
+.lightOrange {
+  fill: #ffd26e;
+}
+.logo-blue {
+  fill: #082999;
+}
+.svgWhite {
+  fill: #ffffff;
+}
 
+.cls-1 {
+  fill: #f5584e;
+}
+.cls-3 {
+  fill: #fff;
+}
 
-.cls-1{fill:#f5584e;}
-.cls-3{fill:#fff;}
+.blue-4 {
+  fill: #0d2e95;
+}
+.darkBlue {
+  fill: #052175;
+}
 
+.white-1 {
+  fill: #fff;
+}
+.iexblue-3 {
+  fill: #11329d;
+}
+.darkOrange {
+  fill: #ffa200;
+}
+.lightOrange {
+  fill: #ffd26e;
+}
 
-.blue-4  {fill: #0d2e95;}
-.darkBlue{fill: #052175;}
-
-.white-1 {fill: #fff;}
-.iexblue-3 {fill: #11329d;}
-.darkOrange {fill: #ffa200;}
-.lightOrange {fill: #ffd26e;}
-
-
-.cls-red {fill: #f5584e;}
-.cls-2   {fill: #fff;}
+.cls-red {
+  fill: #f5584e;
+}
+.cls-2 {
+  fill: #fff;
+}
 
 // BOOTSTRAP NOT IN THIS FILE. IT IS MANAGED BY GULPFILE.JS.  TO MANAGE BOOTSTRAP PARTIALS, revise "node_modules/bootstrap/ scss/bootstrap.scss"
 
+body {
+  background: #092b99; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #092b99,
+    #045bc6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #092b99,
+    #045bc6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-body{
-  background: #092B99;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #092B99, #045BC6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #092B99, #045BC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
   height: 100%;
   margin: 0;
   // background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-
-.navWrapper{
+.navWrapper {
   z-index: 999;
   @media #{$breakpoint-not-small} {
     // background: rgba(11, 46, 161, 0.9);
@@ -48,19 +79,18 @@ body{
   }
 }
 
-nav{
+nav {
   // background: transparent;
   // opacity: 1;
   // z-index: 1000;
   // max-width: 1100px;
-  a{
-    text-decoration: none!important;
-    transition: all .25s ease;
+  a {
+    text-decoration: none !important;
+    transition: all 0.25s ease;
   }
-  a:hover{
+  a:hover {
     color: $lightblue;
   }
-
 }
 
 .navbar {
@@ -74,36 +104,20 @@ nav{
   margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 // .mont{
 //   font-family: $mont;
 // }
-.lora{
+.lora {
   font-family: $lora;
 }
 
 .prox {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
-
-
-.darkgold{
-  color:$darkgold;
+.darkgold {
+  color: $darkgold;
 }
-
-
 
 // BROWSERSYNC POP-UP
 // #__bs_notify__ {
@@ -111,7 +125,6 @@ nav{
 //   right: 10px !important;
 //   border-radius: 15px !important;
 //   height:60px !important; }
-
 
 .logo {
   display: block;
@@ -133,74 +146,66 @@ nav{
 //   opacity: .3;
 // }
 
-
-
-
-.icon{
-  transition: all .5s ease-out;
+.icon {
+  transition: all 0.5s ease-out;
   // opacity: .85;
 }
-.icon:hover{
+.icon:hover {
   transform: translate(0, -12px);
   // opacity: 1;
 }
-
-
 
 // #icon-01e {
 //   position:relative;
 //   left:-25px;
 // }
 #icon-03e {
-  position:relative;
-  left:-15px;
+  position: relative;
+  left: -15px;
 }
-
-
 
 // SIZE: "NOT-SMALL"
 @media screen and (min-width: 30em) {
-// #icon-01e {
-//   left:-12px;
-// }
-#icon-03e {
-  left:-10px;
+  // #icon-01e {
+  //   left:-12px;
+  // }
+  #icon-03e {
+    left: -10px;
+  }
 }
 
-}
-
-
-.smallBlue{
+.smallBlue {
   // .f6 { font-size: .875rem; }
   // .f7 { font-size: .75rem; }
   // .f8 { font-size: .65rem; }
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: bold;
   // font-size: .75rem;
   color: $lightblue;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 // .tracked { letter-spacing: .1em; }
 // .tracked-tight { letter-spacing: -.05em; }
 // .tracked-mega { letter-spacing: .25em; }
 
-.up8px{
+.up8px {
   position: relative;
-  bottom:8px;
+  bottom: 8px;
 }
 
-.down15px{
+.down15px {
   position: relative;
-  top:15px;
+  top: 15px;
 }
 
-.down10px{
+.down10px {
   position: relative;
-  top:10px;
+  top: 10px;
 }
 
-#svgLogo, #svgLogo2 {
+#svgLogo,
+#svgLogo2 {
   cursor: pointer;
 }
 
@@ -217,48 +222,43 @@ nav{
 
 // }
 
-#graphicDiv1{
-  max-width:300px;
+#graphicDiv1 {
+  max-width: 300px;
 }
 
-#graphicDiv2{
-  max-width:290px;
+#graphicDiv2 {
+  max-width: 290px;
 }
 
-
-
-
-
-section, footer{
+section,
+footer {
   max-width: 1100px;
 }
 
-
-.mw1100{
+.mw1100 {
   max-width: 1100px;
 }
 
-.twoColGrid{
+.twoColGrid {
   display: grid;
 
   grid-template-columns: 1fr;
   grid-template-areas:
-      "blueHeader"
-      "textBlock"
-      "item1"
-      "item2"
-      "item3"
-      "item4"
-      "item5"
-      "item6";
+    "blueHeader"
+    "textBlock"
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6";
   grid-gap: 10px 40px;
 
-  
-// CUSTOM TACHYONS *NS* BREAKPOINT
-// @media screen and (min-width: 44em){
-@media #{$breakpoint-not-small}{
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
+  // CUSTOM TACHYONS *NS* BREAKPOINT
+  // @media screen and (min-width: 44em){
+  @media #{$breakpoint-not-small} {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
       "blueHeader blueHeader"
       "textBlock item1"
       "textBlock item2"
@@ -266,113 +266,102 @@ section, footer{
       "textBlock item4"
       "textBlock item5"
       "textBlock item6";
-  grid-gap: 10px 40px;
+    grid-gap: 10px 40px;
   }
-
 }
 
 // CUSTOM TACHYONS *NS* BREAKPOINT
 // $breakpoint-not-small: 'screen and (min-width: 44em)';
 
-
-#LargeTextLeft{
-	grid-area: textBlock;
+#LargeTextLeft {
+  grid-area: textBlock;
 }
 
-#item1{
-	grid-area: item1;
+#item1 {
+  grid-area: item1;
 }
-#item2{
-	grid-area: item2;
+#item2 {
+  grid-area: item2;
 }
-#item3{
-	grid-area: item3;
+#item3 {
+  grid-area: item3;
 }
-#item4{
-	grid-area: item4;
+#item4 {
+  grid-area: item4;
 }
-#item5{
-	grid-area: item5;
+#item5 {
+  grid-area: item5;
 }
-#item6{
-	grid-area: item6;
+#item6 {
+  grid-area: item6;
 }
 
-.listItem{
-
+.listItem {
   font-size: 18px;
-  
-  @media #{$breakpoint-not-small}{
+
+  @media #{$breakpoint-not-small} {
     font-size: 12px;
     // line-height: 1rem;
     // margin-bottom: 1.5rem;
   }
 }
-.listItem svg,{
-  width:15px;
+.listItem svg {
+  width: 15px;
 }
 
-
-
-
-
-
-
-.colWrapper{
+.colWrapper {
   min-width: 240px;
   margin-bottom: 4.5rem;
 
-  @media #{$breakpoint-not-small}{
-
+  @media #{$breakpoint-not-small} {
   }
- }
+}
 
-
- .x-mark{
+.x-mark {
   //  fill: purple;
-   fill:#0098ff;
- }
+  fill: #0098ff;
+}
 
- a{
+a {
   color: white;
   opacity: 1;
-  transition: all .3s ease;
-   text-decoration: none;
- }
- a:visited, a:active {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
   color: white;
 }
 
-footer a:hover{
+footer a:hover {
   opacity: 0.5;
 }
 
-.DG4-col__item{
+.DG4-col__item {
   font-size: 1.2rem;
 
-  @media #{$breakpoint-not-small}{
-    font-size: .75rem;
+  @media #{$breakpoint-not-small} {
+    font-size: 0.75rem;
   }
 }
 
-
-.ourplat-checkmark{
+.ourplat-checkmark {
   width: 1rem;
   // padding-top:1.2rem;
 }
 
-
-.checkmark{
+.checkmark {
   width: 1rem;
-  padding-top:1.2rem;
+  padding-top: 1.2rem;
 }
 
-.x-mark{
+.x-mark {
   width: 1rem;
-  padding-top:1.2rem;
+  padding-top: 1.2rem;
 }
 
-#quoteDiv{
+#quoteDiv {
   // padding-top: 130px;
 }
 
@@ -380,7 +369,16 @@ footer a:hover{
 //   width: 350px;
 // }
 
-
-.person{
+.person {
   margin-bottom: 6rem;
+}
+
+.topSpacer {
+  height: 70px;
+  width: 1100px;
+}
+
+
+#openPositions a:hover {
+  opacity: 0.4;
 }
