@@ -1,0 +1,37 @@
+#TW-ALL{
+  cursor: pointer;
+  // fill: red;
+  // border: 1 cyan solid;
+  border: 1 solid cyan ;
+}
+
+
+
+
+
+
+// SELECTORS: https://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling
+// adjacent sibling combinator (+)
+// general sibling combinator (~)
+
+// #TW-HEADLINE:hover + #TW-TEXT{
+//   opacity: 1;
+// }
+
+#TW-TEXT{
+  opacity: 0;
+  transition: all .6s ease;
+  transform: translateY(0px);
+  
+}
+#TW-ALL:hover #TW-TEXT{
+  opacity: 1;
+  transform: translateY(10px);
+}
+
+
+
+
+
+#TW-TEXT text{
+}
