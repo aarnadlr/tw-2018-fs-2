@@ -8072,8 +8072,14 @@ footer a:hover {
   width: 1rem;
   padding-top: 1.2rem; }
 
-.person {
+.person, .faq {
   margin-bottom: 6rem; }
+
+.faq .title {
+  text-transform: capitalize; }
+
+.faqWrapper {
+  max-width: 500px; }
 
 .topSpacer {
   height: 70px;
