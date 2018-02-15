@@ -7852,17 +7852,6 @@ textarea {
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
 
-#TW-CIRCLE-LOGO {
-  transition: all .6s ease;
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
-#TW-ALL:hover #TW-CIRCLE-LOGO {
-  -ms-transform: scale(1.2);
-      transform: scale(1.2);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
 #RCM-TEXT {
   opacity: 0;
   transition: all .6s ease;
@@ -7873,17 +7862,6 @@ textarea {
   opacity: 1;
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
-
-#RCM-LOGO {
-  transition: all .6s ease;
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
-#RCM-ALL:hover #RCM-LOGO {
-  -ms-transform: scale(1.4);
-      transform: scale(1.4);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
 
 #Liquidity-TEXT {
   opacity: 0;
@@ -7896,17 +7874,6 @@ textarea {
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
 
-#Liquidity-LOGO {
-  transition: all .6s ease;
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
-#LIQUIDITY-ALL:hover #Liquidity-LOGO {
-  -ms-transform: scale(1.4);
-      transform: scale(1.4);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
 #AUTHDEALERS-TEXT {
   opacity: 0;
   transition: all .6s ease;
@@ -7917,17 +7884,6 @@ textarea {
   opacity: 1;
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
-
-#AUTHDEALERS-LOGO {
-  transition: all .6s ease;
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
-#AUTHDEALERS-ALL:hover #AUTHDEALERS-LOGO {
-  -ms-transform: scale(1.4);
-      transform: scale(1.4);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
 
 #Customers-TEXT {
   opacity: 0;
@@ -7940,17 +7896,6 @@ textarea {
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
 
-#Customers-LOGO {
-  transition: all .6s ease;
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
-#CUSTOMERS-ALL:hover #Customers-LOGO {
-  -ms-transform: scale(1.4);
-      transform: scale(1.4);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
 #TWWALLET-TEXT {
   opacity: 0;
   transition: all .6s ease;
@@ -7962,20 +7907,10 @@ textarea {
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
 
-#TWWALLET-LOGO {
-  transition: all .6s ease;
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
-#TWWALLET-ALL:hover #TWWALLET-LOGO {
-  -ms-transform: scale(1.4);
-      transform: scale(1.4);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
-
 #TWWALLET-HEADLINE {
   -ms-transform: translateX(10px);
-      transform: translateX(10px); }
+      transform: translateX(10px);
+  -moz-transform: translateX(10px); }
 
 ::-moz-selection {
   background: #1400a9;
