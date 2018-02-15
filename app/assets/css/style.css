@@ -7838,9 +7838,8 @@ textarea {
 .nav ul {
   list-style: none; }
 
-#TW-ALL {
-  cursor: pointer;
-  border: 1 solid cyan; }
+#TW-ALL, #RCM-ALL, #LIQUIDITY-ALL, #AUTHDEALERS-ALL, #CUSTOMERS-ALL, #TWWALLET-ALL {
+  cursor: pointer; }
 
 #TW-TEXT {
   opacity: 0;
@@ -7852,6 +7851,65 @@ textarea {
   opacity: 1;
   -ms-transform: translateY(10px);
       transform: translateY(10px); }
+
+#RCM-TEXT {
+  opacity: 0;
+  transition: all .6s ease;
+  -ms-transform: translateY(0px);
+      transform: translateY(0px); }
+
+#RCM-ALL:hover #RCM-TEXT {
+  opacity: 1;
+  -ms-transform: translateY(10px);
+      transform: translateY(10px); }
+
+#Liquidity-TEXT {
+  opacity: 0;
+  transition: all .6s ease;
+  -ms-transform: translateY(0px);
+      transform: translateY(0px); }
+
+#LIQUIDITY-ALL:hover #Liquidity-TEXT {
+  opacity: 1;
+  -ms-transform: translateY(10px);
+      transform: translateY(10px); }
+
+#AUTHDEALERS-TEXT {
+  opacity: 0;
+  transition: all .6s ease;
+  -ms-transform: translateY(0px);
+      transform: translateY(0px); }
+
+#AUTHDEALERS-ALL:hover #AUTHDEALERS-TEXT {
+  opacity: 1;
+  -ms-transform: translateY(10px);
+      transform: translateY(10px); }
+
+#Customers-TEXT {
+  opacity: 0;
+  transition: all .6s ease;
+  -ms-transform: translateY(0px);
+      transform: translateY(0px); }
+
+#CUSTOMERS-ALL:hover #Customers-TEXT {
+  opacity: 1;
+  -ms-transform: translateY(10px);
+      transform: translateY(10px); }
+
+#TWWALLET-TEXT {
+  opacity: 0;
+  transition: all .6s ease;
+  -ms-transform: translateY(0px);
+      transform: translateY(0px); }
+
+#TWWALLET-ALL:hover #TWWALLET-TEXT {
+  opacity: 1;
+  -ms-transform: translateY(10px);
+      transform: translateY(10px); }
+
+#TWWALLET-HEADLINE {
+  -ms-transform: translateX(10px);
+      transform: translateX(10px); }
 
 ::-moz-selection {
   background: #1400a9;
