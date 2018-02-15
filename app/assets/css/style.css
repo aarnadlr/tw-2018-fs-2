@@ -7327,7 +7327,15 @@ code, .code {
     padding-bottom: 1.5rem; }
   .pv3d-ns {
     padding-top: 1.75rem;
-    padding-bottom: 1.75rem; } }
+    padding-bottom: 1.75rem; }
+  .mb5b-ns {
+    margin-bottom: 5rem; }
+  .mb5c-ns {
+    margin-bottom: 6rem; }
+  .mb5d-ns {
+    margin-bottom: 7rem; }
+  .mb5e-ns {
+    margin-bottom: 7.5rem; } }
 
 /* Height Scale */
 .h6 {
@@ -7396,7 +7404,6 @@ code, .code {
 
    Base:
      p = padding
-     m = margin
 
 */
 .pt6b {
@@ -7443,6 +7450,18 @@ code, .code {
 .pv3d {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem; }
+
+.mb5b {
+  margin-bottom: 5rem; }
+
+.mb5c {
+  margin-bottom: 6rem; }
+
+.mb5d {
+  margin-bottom: 7rem; }
+
+.mb5e {
+  margin-bottom: 7.5rem; }
 
 .clear:before, .clear:after {
   content: ' ';
@@ -8146,14 +8165,17 @@ footer a:hover {
   width: 1rem;
   padding-top: 1.2rem; }
 
-.person, .faq {
+.person, .faq, .press {
   margin-bottom: 6rem; }
 
-.faq .title {
+.faq .title, .press .title {
   text-transform: capitalize; }
 
 .faqWrapper {
   max-width: 500px; }
+
+.maxWidth1100 {
+  max-width: 1100px; }
 
 .topSpacer {
   height: 70px;

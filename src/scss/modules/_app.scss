@@ -366,12 +366,12 @@ footer a:hover {
 //   width: 350px;
 // }
 
-.person, .faq {
+.person, .faq, .press {
   margin-bottom: 6rem;
 }
 
 
-.faq .title{
+.faq .title, .press .title{
   text-transform: capitalize;
 }
 
@@ -380,6 +380,9 @@ footer a:hover {
   max-width: 500px;
 }
 
+.maxWidth1100{
+  max-width: 1100px;
+}
 
 .topSpacer {
   height: 70px;
