@@ -8131,6 +8131,9 @@ section,
 footer, .mw1100 {
   max-width: 1100px; }
 
+.mw1300 {
+  max-width: 1300px; }
+
 .twoColGrid {
   display: -ms-grid;
   display: grid;

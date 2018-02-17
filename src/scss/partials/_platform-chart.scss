@@ -48,14 +48,7 @@
   opacity: 1;
   transform: translateY(10px);
 }
-// #RCM-LOGO{
-//   transition: all .6s ease;
-//   transform-origin: 50% 50%;
-// }
-// #RCM-ALL:hover #RCM-LOGO{
-//   transform: scale(1.4);
-//   transform-origin: 50% 50%;
-// }
+
 
 
 
@@ -67,18 +60,12 @@
   transform: translateY(0px);
   
 }
+// REMOVED FOR REFACTOR:
 #LIQUIDITY-ALL:hover #Liquidity-TEXT{
   opacity: 1;
   transform: translateY(10px);
 }
-// #Liquidity-LOGO{
-//   transition: all .6s ease;
-//   transform-origin: 50% 50%;
-// }
-// #LIQUIDITY-ALL:hover #Liquidity-LOGO{
-//   transform: scale(1.4);
-//   transform-origin: 50% 50%;
-// }
+
 
 
 
@@ -94,14 +81,8 @@
   opacity: 1;
   transform: translateY(10px);
 }
-// #AUTHDEALERS-LOGO{
-//   transition: all .6s ease;
-//   transform-origin: 50% 50%;
-// }
-// #AUTHDEALERS-ALL:hover #AUTHDEALERS-LOGO{
-//   transform: scale(1.4);
-//   transform-origin: 50% 50%;
-// }
+
+
 
 
 
@@ -171,3 +152,33 @@
   transform: translateX(10px);
   -moz-transform: translateX(10px);
 }
+
+
+
+
+// NEW CSS: HOVER TEXT REFACTOR:
+// NEW CSS: HOVER TEXT REFACTOR:
+// NEW CSS: HOVER TEXT REFACTOR:
+
+
+#aa-Platform-Chart{
+  // width: 900px;
+}
+
+
+
+
+// .chartText-1{
+//  top:70px;
+//  left:11px;
+//  width: 200px;
+
+//  opacity: 0;
+//  transition: all .6s ease;
+//  transform: translateY(0px);
+// }
+
+// #LIQUIDITY-ALL:hover #chartText-1 .chartText-1{
+//   opacity: 1;
+//   transform: translateY(10px);
+// }
