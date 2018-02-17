@@ -231,13 +231,13 @@ nav {
 }
 
 section,
-footer {
+footer, .mw1100 {
   max-width: 1100px;
 }
 
-.mw1100 {
-  max-width: 1100px;
-}
+//  {
+//   max-width: 1100px;
+// }
 
 .twoColGrid {
   display: grid;
@@ -329,9 +329,18 @@ a {
   text-decoration: none;
 }
 
+
+.press .button{
+  color: #082999 !important;
+}
+
+.button{
+  color: #082999 !important;
+}
+
 a:visited,
 a:active {
-  color: white;
+  color: #ffffff;
 }
 
 footer a:hover {
@@ -421,4 +430,49 @@ footer a:hover {
 #platformWrapper{
   max-width:1100px;
 
+}
+
+.DG_textBlock{
+  float: left;
+  width: 50%;
+  // padding:1rem;
+}
+.DG_textBlock:nth-child(odd){
+  padding-right:3rem;
+}
+.DG_textBlock:nth-child(even){
+  padding-left:3rem;
+}
+
+.DG_title{
+  // font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.DG_copy{
+  line-height: 1.5rem;
+}
+
+.icon1{
+  fill:rgb(255, 89, 74);
+}
+.icon2{
+  fill:rgb(0, 152, 255);
+}
+
+
+
+.headshot{
+  // max-width: 30%;
+  // width: 300px;
+  // height: ;
+
+  max-width:300px;
+  // max-height:95px;
+  // width: auto;
+  // height: auto;
+}
+
+.team img{
+  // max-width:1100px;
 }

@@ -7297,6 +7297,12 @@ code, .code {
     font-size: .65rem; }
   .f9-ns {
     font-size: .55rem; }
+  .pt5b-ns {
+    padding-top: 5rem; }
+  .pt5c-ns {
+    padding-top: 6rem; }
+  .pt5d-ns {
+    padding-top: 7rem; }
   .pt6b-ns {
     padding-top: 10rem; }
   .pt6c-ns {
@@ -7406,6 +7412,15 @@ code, .code {
      p = padding
 
 */
+.pt5b {
+  padding-top: 5rem; }
+
+.pt5c {
+  padding-top: 6rem; }
+
+.pt5d {
+  padding-top: 7rem; }
+
 .pt6b {
   padding-top: 10rem; }
 
@@ -7462,6 +7477,12 @@ code, .code {
 
 .mb5e {
   margin-bottom: 7.5rem; }
+
+.tracked3 {
+  letter-spacing: .06em; }
+
+.tracked2 {
+  letter-spacing: .08em; }
 
 .clear:before, .clear:after {
   content: ' ';
@@ -7931,6 +7952,32 @@ textarea {
       transform: translateX(10px);
   -moz-transform: translateX(10px); }
 
+#digGold_table {
+  max-width: 1100px;
+  border-collapse: collapse;
+  border-color: #ffffff;
+  border: solid 1px cyan;
+  color: white; }
+
+#digGold_table td {
+  padding: 15px 50px;
+  border-top: solid 1px #ffffff !important;
+  border-left: solid 1px #ffffff !important;
+  border-right: solid 1px #ffffff !important;
+  border-bottom: solid 1px #ffffff !important; }
+
+.no-border {
+  border-left: none; }
+
+.redcheck {
+  color: red; }
+
+.blueBcg-1 {
+  background: rgba(0, 152, 255, 0.9); }
+
+.blueBcg-2 {
+  background: rgba(0, 152, 255, 0.4); }
+
 ::-moz-selection {
   background: #1400a9;
   color: #fff;
@@ -8081,10 +8128,7 @@ nav a:hover {
   max-width: 290px; }
 
 section,
-footer {
-  max-width: 1100px; }
-
-.mw1100 {
+footer, .mw1100 {
   max-width: 1100px; }
 
 .twoColGrid {
@@ -8144,9 +8188,15 @@ a {
   transition: all 0.3s ease;
   text-decoration: none; }
 
+.press .button {
+  color: #082999 !important; }
+
+.button {
+  color: #082999 !important; }
+
 a:visited,
 a:active {
-  color: white; }
+  color: #ffffff; }
 
 footer a:hover {
   opacity: 0.5; }
@@ -8202,6 +8252,31 @@ footer a:hover {
 
 #platformWrapper {
   max-width: 1100px; }
+
+.DG_textBlock {
+  float: left;
+  width: 50%; }
+
+.DG_textBlock:nth-child(odd) {
+  padding-right: 3rem; }
+
+.DG_textBlock:nth-child(even) {
+  padding-left: 3rem; }
+
+.DG_title {
+  text-transform: capitalize; }
+
+.DG_copy {
+  line-height: 1.5rem; }
+
+.icon1 {
+  fill: #ff594a; }
+
+.icon2 {
+  fill: #0098ff; }
+
+.headshot {
+  max-width: 300px; }
 
 @media print {
   * {

@@ -1,0 +1,44 @@
+// TABLE BORDER STYLES:
+// https://www.thoughtco.com/add-internal-lines-to-table-with-css-3469872
+// https://css-tricks.com/table-borders-inside/
+
+#digGold_table {
+  max-width: 1100px;
+  // width: 80%;
+  // background-color: #f41313;
+    // cell-padding: 10px;
+  // border-spacing: 10px;
+  // border-width: 1px;
+  border-collapse: collapse;
+
+  border-color: #ffffff;
+  // border-style: solid;
+  border: solid 1px cyan;
+  color:white;
+}
+
+#digGold_table td {
+        // VERT HORIZ
+  padding: 15px 50px;
+  border-top: solid 1px #ffffff !important;
+  border-left: solid 1px #ffffff !important;
+  border-right: solid 1px #ffffff !important;
+  border-bottom: solid 1px #ffffff !important;
+
+}
+
+.no-border {
+  border-left: none;
+}
+
+.redcheck{
+  color: red;
+}
+
+.blueBcg-1{
+  background: rgba(0, 152, 255, .9);
+}
+
+.blueBcg-2{
+  background: rgba(0, 152, 255, .4);
+}

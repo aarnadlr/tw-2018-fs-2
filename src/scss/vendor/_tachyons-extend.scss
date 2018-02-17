@@ -113,6 +113,10 @@
   .f9-ns { font-size: .55rem; }     //ADDED
 
   // PADDING TOP:
+
+  .pt5b-ns { padding-top: 5rem; }
+  .pt5c-ns { padding-top: 6rem; }
+  .pt5d-ns { padding-top: 7rem; }
 //.pt6-ns  { padding-top: 8rem; }
   .pt6b-ns { padding-top: 10rem; }         //ADDED
   .pt6c-ns { padding-top: 12rem; }         //ADDED
@@ -226,6 +230,9 @@
 // .pt3 { padding-top: 1rem; }
 // .pt4 { padding-top: 2rem; }
 // .pt5 { padding-top: 4rem; }
+.pt5b { padding-top: 5rem; }
+.pt5c { padding-top: 6rem; }
+.pt5d { padding-top: 7rem; }
 // .pt6  { padding-top: 8rem; }
 .pt6b { padding-top: 10rem; }         //ADDED
 .pt6c { padding-top: 12rem; }         //ADDED
@@ -274,3 +281,11 @@
 .mb5e { margin-bottom: 7.5rem; }
 // .mb6 { margin-bottom: 8rem; }
 // .mb7 { margin-bottom: 16rem; }
+
+
+// LETTER TRACKING
+.tracked3 { letter-spacing: .06em; }
+.tracked2 { letter-spacing: .08em; }
+// .tracked { letter-spacing: .1em; }
+// .tracked-tight { letter-spacing: -.05em; }
+// .tracked-mega { letter-spacing: .25em; }
