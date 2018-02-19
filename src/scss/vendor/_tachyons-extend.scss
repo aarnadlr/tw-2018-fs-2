@@ -129,6 +129,10 @@
   .pt12-ns { padding-top: 21rem; }        
 
   // PADDING BOTTOM:
+  .pb3b-ns { padding-bottom: 1.25rem; }
+  .pb3c-ns { padding-bottom: 1.5rem; }
+  .pb3d-ns { padding-bottom: 1.75rem; }
+
   .pb6b-ns { padding-bottom: 10rem; }         //ADDED
   .pb6c-ns { padding-bottom: 12rem; }         //ADDED
   .pb6d-ns { padding-bottom: 14rem; }         //ADDED
@@ -250,9 +254,21 @@
 
 
 // PADDING BOTTOM
-.pb6b { padding-bottom: 10rem; }         //ADDED
-.pb6c { padding-bottom: 12rem; }         //ADDED
-.pb6d { padding-bottom: 14rem; }         //ADDED
+
+// .pb1 { padding-bottom: .25rem; }
+// .pb2 { padding-bottom: .5rem; }
+// .pb3 { padding-bottom: 1rem; }
+  .pb3b { padding-bottom: 1.25rem; }
+  .pb3c { padding-bottom: 1.5rem; }
+  .pb3d { padding-bottom: 1.75rem; }
+// .pb4 { padding-bottom: 2rem; }
+// .pb5 { padding-bottom: 4rem; }
+// .pb6 { padding-bottom: 8rem; }
+
+  .pb6b { padding-bottom: 10rem; }         //ADDED
+  .pb6c { padding-bottom: 12rem; }         //ADDED
+  .pb6d { padding-bottom: 14rem; }         //ADDED
+
 
 // PADDING VERTICAL:
 // .pv1 { padding-top: .25rem; padding-bottom: .25rem; }

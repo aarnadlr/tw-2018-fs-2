@@ -7319,6 +7319,12 @@ code, .code {
     padding-top: 20rem; }
   .pt12-ns {
     padding-top: 21rem; }
+  .pb3b-ns {
+    padding-bottom: 1.25rem; }
+  .pb3c-ns {
+    padding-bottom: 1.5rem; }
+  .pb3d-ns {
+    padding-bottom: 1.75rem; }
   .pb6b-ns {
     padding-bottom: 10rem; }
   .pb6c-ns {
@@ -7444,6 +7450,15 @@ code, .code {
 
 .pt12 {
   padding-top: 21rem; }
+
+.pb3b {
+  padding-bottom: 1.25rem; }
+
+.pb3c {
+  padding-bottom: 1.5rem; }
+
+.pb3d {
+  padding-bottom: 1.75rem; }
 
 .pb6b {
   padding-bottom: 10rem; }
