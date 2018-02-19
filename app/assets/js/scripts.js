@@ -40,8 +40,8 @@ var masterTl2 = new TimelineMax(
 
 var svgLogo = document.getElementById('svgLogo');
 var svgLogo2 = document.getElementById('svgLogo2');
-svgLogo.style.fill = "white";
-svgLogo2.style.fill = "white";
+svgLogo.style.fill = "rgb(12, 0, 141)";
+svgLogo2.style.fill = "rgb(12, 0, 141)";
 
 
 // FROM animation = SET UP THE STARTING POINT (USUALLY INVISIBLE, to animate INTO visibility)
@@ -94,11 +94,12 @@ masterTl2
 // var svgLogo  = document.querySelector('#svgLogo');
 
 svgLogo.addEventListener("mouseenter", function() {
-TweenMax.to(svgLogo, 0.1, {fill: "#1A9AFC", ease: Linear.easeNone});
+// TweenMax.to(svgLogo, 0.1, {fill: "#1A9AFC", ease: Linear.easeNone});
+TweenMax.to(svgLogo, 0.3, {fill: "rgb(39, 111, 255)", ease: Power2.easeNone});
 });
 
 svgLogo.addEventListener("mouseleave", function() {
-TweenMax.to(svgLogo, 0.1, {fill: "white", ease: Linear.easeNone});
+TweenMax.to(svgLogo, 0.3, {fill: "rgb(12, 0, 141)", ease: Linear.easeNone});
 });
 
 
