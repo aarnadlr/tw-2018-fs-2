@@ -2,20 +2,32 @@
 // vvv DodgerBlue
 $lightblue:       #1a9afc;
 
-// DESIGN 2 BACKGROUND COLOR:
-$design2-light-gray: rgb(218, 218, 222);
-$design2-light-gray-2: rgb(226, 226, 232);
+// DESIGN 2 BACKGROUND COLOR: HIGHER IS LIGHTER, LOWER IS DARKER
+$design2-light-gray: rgb(230, 230, 232);    //LIGHTER
+$design2-light-gray-2: rgb(220, 220, 222);  //DARKER
 
 // DESIGN 2 TEXT COLOR:
-$design2-blue:       rgb(12, 0, 141);
+// $design2-blue:       rgb(12, 0, 141);
+$design2-blue:           #0d2e97;
 
 // DESIGN 2 LIGHTER BLUE HOVER COLOR:
-// $design2-blue-hover: rgb(0, 149, 255);
-// $design2-blue-hover: rgb(21, 0, 255);
+// $design2-blue-highlight: rgb(39, 93, 255);
+$design2-blue-highlight: #1a9afc;
 
-// $design2-blue-hover: rgb(0, 115, 255);
-// $design2-blue-hover: #1a9afc;
-$design2-blue-highlight: rgb(39, 93, 255);
+
+
+
+// *******************    TW STYLE GUIDE PDF COLORS:
+// *******************    TW STYLE GUIDE PDF COLORS:
+// *******************    TW STYLE GUIDE PDF COLORS:
+          $tw-style-guide-blue-1:   #0d2e97;
+          $tw-style-guide-blue-2:   #1a9afc;
+
+          $tw-style-guide-beige:    #d6d3c1;
+          $tw-style-guide-light-gray:#efefef;
+
+
+
 
 // SVG COLORS
 .darkOrange   {fill: #ffa200;}
@@ -25,7 +37,8 @@ $design2-blue-highlight: rgb(39, 93, 255);
 .cls-1        {fill: #f5584e;}
 .cls-3        {fill: #fff;}
 .blue-4       {fill: #0d2e95;}
-.darkBlue     {fill: #052175;}
+// .darkBlue     {fill: #052175;}
+.darkBlue     {fill: #0d2e97;}
 .white-1      {fill: #fff;}
 .iexblue-3    {fill: #11329d;}
 .darkOrange   {fill: #ffa200;}
@@ -33,8 +46,9 @@ $design2-blue-highlight: rgb(39, 93, 255);
 .cls-red      {fill: #f5584e;}
 .cls-2        {fill: #fff;}
 
-.design2-blue {fill: rgb(12, 0, 141)}
-.design2-blue-highlight {fill: rgb(39, 111, 255)}
+.design2-blue {fill: #0d2e97;}
+// .design2-blue-highlight {fill: rgb(39, 111, 255)}
+.design2-blue-highlight {fill: #1a9afc;}
 
 
 // BOOTSTRAP NOT IN THIS FILE. IT IS MANAGED BY GULPFILE.JS.  TO MANAGE BOOTSTRAP PARTIALS, revise "node_modules/bootstrap/ scss/bootstrap.scss"
@@ -467,7 +481,38 @@ footer a:hover {
 }
 
 .shadow{
-  -webkit-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
--moz-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
+//   -webkit-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
+// -moz-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
+// box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
 }
+
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+// @keyframes moveDown {
+//   from {
+//       transform: translateY(-20px);
+//   }
+//   to {
+//     transform: translateY(0px);
+//   }
+// }
+
+body {
+  animation: fadein 1.5s;
+}
+
+// #sectionOne {
+//   animation-timing-function: ease-out;
+//   animation: moveDown 1s;
+// }
+
+
+

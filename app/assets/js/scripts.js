@@ -17,6 +17,9 @@
 // })(jQuery, window, document);
 
 
+// $(document).ready(function(){$("body").hide().fadeIn(1000);});
+
+
 var masterTl = new TimelineMax(
   {paused: false,
   // repeat:-1, //looping
@@ -40,8 +43,10 @@ var masterTl2 = new TimelineMax(
 
 var svgLogo = document.getElementById('svgLogo');
 var svgLogo2 = document.getElementById('svgLogo2');
-svgLogo.style.fill = "rgb(12, 0, 141)";
-svgLogo2.style.fill = "rgb(12, 0, 141)";
+// svgLogo.style.fill = "rgb(12, 0, 141)";
+svgLogo.style.fill = "#0d2e97";
+// svgLogo2.style.fill = "rgb(12, 0, 141)";
+svgLogo2.style.fill = "#0d2e97";
 
 
 // FROM animation = SET UP THE STARTING POINT (USUALLY INVISIBLE, to animate INTO visibility)
@@ -95,11 +100,11 @@ masterTl2
 
 svgLogo.addEventListener("mouseenter", function() {
 // TweenMax.to(svgLogo, 0.1, {fill: "#1A9AFC", ease: Linear.easeNone});
-TweenMax.to(svgLogo, 0.3, {fill: "rgb(39, 111, 255)", ease: Power2.easeNone});
+TweenMax.to(svgLogo, 0.3, {fill: "#1a9afc", ease: Power2.easeNone});
 });
 
 svgLogo.addEventListener("mouseleave", function() {
-TweenMax.to(svgLogo, 0.3, {fill: "rgb(12, 0, 141)", ease: Linear.easeNone});
+TweenMax.to(svgLogo, 0.3, {fill: "#0d2e97", ease: Linear.easeNone});
 });
 
 

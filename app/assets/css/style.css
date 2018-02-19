@@ -8020,7 +8020,7 @@ textarea {
   fill: #0d2e95; }
 
 .darkBlue {
-  fill: #052175; }
+  fill: #0d2e97; }
 
 .white-1 {
   fill: #fff; }
@@ -8041,30 +8041,30 @@ textarea {
   fill: #fff; }
 
 .design2-blue {
-  fill: #0c008d; }
+  fill: #0d2e97; }
 
 .design2-blue-highlight {
-  fill: #276fff; }
+  fill: #1a9afc; }
 
 body {
-  background: #dadade;
+  background: #e6e6e8;
   height: 100%;
   margin: 0;
   background-attachment: fixed;
-  color: #0c008d; }
+  color: #0d2e97; }
 
 .navWrapper {
   z-index: 999; }
   @media screen and (min-width: 44em) {
     .navWrapper {
-      background: #dadade; } }
+      background: #e6e6e8; } }
 
 nav a {
   text-decoration: none !important;
   transition: all 0.25s ease; }
 
 nav a:hover {
-  color: #275dff; }
+  color: #1a9afc; }
 
 .navbar {
   max-width: 1100px;
@@ -8105,7 +8105,7 @@ nav a:hover {
 .smallBlue {
   font-size: 0.955rem;
   font-weight: bold;
-  color: #275dff;
+  color: #1a9afc;
   letter-spacing: 0.2em; }
 
 .up8px {
@@ -8189,7 +8189,7 @@ footer, .mw1100 {
   fill: #0098ff; }
 
 a {
-  color: #0c008d;
+  color: #0d2e97;
   opacity: 1;
   transition: all 0.3s ease;
   text-decoration: none; }
@@ -8281,10 +8281,16 @@ footer a:hover {
   max-width: 300px; }
 
 #sectionTwo, #logos, .fullwidth-wrapper-light {
-  background: #e2e2e8; }
+  background: #dcdcde; }
 
-.shadow {
-  box-shadow: 7px 10px 300px -49px rgba(0, 0, 0, 0.75); }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+body {
+  animation: fadein 1.5s; }
 
 @media print {
   * {
