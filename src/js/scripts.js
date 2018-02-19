@@ -36,7 +36,8 @@ var masterTl2 = new TimelineMax(
 var svgLogo = document.getElementById('svgLogo');
 var svgLogo2 = document.getElementById('svgLogo2');
 // svgLogo.style.fill = "rgb(12, 0, 141)";
-svgLogo.style.fill = "#0d2e97";
+// svgLogo.style.fill = "#0d2e97";
+svgLogo.style.fill = "white";
 // svgLogo2.style.fill = "rgb(12, 0, 141)";
 svgLogo2.style.fill = "#0d2e97";
 
@@ -96,7 +97,7 @@ TweenMax.to(svgLogo, 0.3, {fill: "#1a9afc", ease: Power2.easeNone});
 });
 
 svgLogo.addEventListener("mouseleave", function() {
-TweenMax.to(svgLogo, 0.3, {fill: "#0d2e97", ease: Linear.easeNone});
+TweenMax.to(svgLogo, 0.3, {fill: "white", ease: Linear.easeNone});
 });
 
 

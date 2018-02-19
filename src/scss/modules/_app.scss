@@ -73,6 +73,7 @@ body {
 
 nav {
   // background: transparent;
+  background: $tw-style-guide-blue-1;
   // opacity: 1;
   // z-index: 1000;
   // max-width: 1100px;
@@ -505,14 +506,19 @@ footer a:hover {
 //   }
 // }
 
-body {
+.sectionOne__textWrapper, #leftLinks, #graphicDiv1 {
   animation: fadein 1.5s;
 }
 
-// #sectionOne {
-//   animation-timing-function: ease-out;
-//   animation: moveDown 1s;
-// }
+#sectionOne {
+ background: $tw-style-guide-blue-1;
+  @media #{$breakpoint-not-small} {
+    padding-top: 200px;
+    padding-bottom: 220px;
+  }
+}
 
-
+.lightBlue{
+  color: $tw-style-guide-blue-2;
+}
 
