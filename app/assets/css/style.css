@@ -8197,10 +8197,6 @@ a {
 .button {
   color: #082999 !important; }
 
-a:visited,
-a:active {
-  color: #ffffff; }
-
 footer a:hover {
   opacity: 0.5; }
 
