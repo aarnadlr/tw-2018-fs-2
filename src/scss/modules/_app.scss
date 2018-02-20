@@ -5,6 +5,7 @@ $lightblue:       #1a9afc;
 // DESIGN 2 BACKGROUND COLOR: HIGHER IS LIGHTER, LOWER IS DARKER
 $design2-light-gray: rgb(230, 230, 232);    //LIGHTER
 $design2-light-gray-2: rgb(220, 220, 222);  //DARKER
+$design2-light-gray-3: rgb(210, 210, 212);  //EVEN DARKER
 
 // DESIGN 2 TEXT COLOR:
 // $design2-blue:       rgb(12, 0, 141);
@@ -66,14 +67,42 @@ body {
 .navWrapper {
   z-index: 999;
   @media #{$breakpoint-not-small} {
-    // background: rgba(11, 46, 161, 0.9);
     background: $design2-light-gray;
+    // background: $tw-style-guide-blue-1;
+  }
+}
+
+
+.navWrapperSplash {
+  z-index: 999;
+  @media #{$breakpoint-not-small} {
+    // background: rgba(11, 46, 161, 0.9);
+    background: $tw-style-guide-blue-1;
+  }
+}
+
+
+
+.navSplash {
+  // background: transparent;
+  background: $tw-style-guide-blue-1;
+  // background: $design2-light-gray;;
+  // opacity: 1;
+  // z-index: 1000;
+  // max-width: 1100px;
+  a {
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+  }
+  a:hover {
+    color: $design2-blue-highlight;
   }
 }
 
 nav {
   // background: transparent;
-  background: $tw-style-guide-blue-1;
+  // background: $tw-style-guide-blue-1;
+  background: $design2-light-gray;;
   // opacity: 1;
   // z-index: 1000;
   // max-width: 1100px;
@@ -481,6 +510,12 @@ footer a:hover {
   background: $design2-light-gray-2;
 }
 
+
+.fullwidth-wrapper-blue{
+  background: $tw-style-guide-blue-1;
+}
+
+
 .shadow{
 //   -webkit-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
 // -moz-box-shadow: 7px 10px 300px -49px rgba(0,0,0,0.75);
@@ -510,15 +545,42 @@ footer a:hover {
   animation: fadein 1.5s;
 }
 
-#sectionOne {
+.sectionBlueBcg {
  background: $tw-style-guide-blue-1;
-  @media #{$breakpoint-not-small} {
-    padding-top: 200px;
-    padding-bottom: 220px;
-  }
+  // @media #{$breakpoint-not-small} {
+  //   padding-top: 200px;
+  //   padding-bottom: 220px;
+  // }
 }
+
+.sectionMargin {
+  // background: $tw-style-guide-blue-1;
+   @media #{$breakpoint-not-small} {
+     padding-top: 200px;
+     padding-bottom: 220px;
+   }
+ }
+
+ .sectionMargin-pb180 {
+  // background: $tw-style-guide-blue-1;
+   @media #{$breakpoint-not-small} {
+     padding-top: 200px;
+     padding-bottom: 180px;
+   }
+ }
 
 .lightBlue{
   color: $tw-style-guide-blue-2;
 }
 
+.blueText{
+  color: $tw-style-guide-blue-1;
+}
+
+.gray2-bcg{
+  background: $design2-light-gray-2;
+}
+
+.gray3-bcg{
+  background: $design2-light-gray-3;
+}
