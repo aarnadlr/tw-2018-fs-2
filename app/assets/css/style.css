@@ -7987,14 +7987,14 @@ textarea {
   border-collapse: collapse;
   border-color: #ffffff;
   border: solid 1px cyan;
-  color: white; }
+  color: #0d2e97; }
 
 #digGold_table td {
   padding: 15px 50px;
-  border-top: solid 1px #ffffff !important;
-  border-left: solid 1px #ffffff !important;
-  border-right: solid 1px #ffffff !important;
-  border-bottom: solid 1px #ffffff !important; }
+  border-top: solid 1px #0d2e97 !important;
+  border-left: solid 1px #0d2e97 !important;
+  border-right: solid 1px #0d2e97 !important;
+  border-bottom: solid 1px #0d2e97 !important; }
 
 .no-border {
   border-left: none; }
@@ -8003,10 +8003,10 @@ textarea {
   color: red; }
 
 .blueBcg-1 {
-  background: rgba(0, 152, 255, 0.9); }
+  background: rgba(0, 152, 255, 0.4); }
 
 .blueBcg-2 {
-  background: rgba(0, 152, 255, 0.4); }
+  background: rgba(0, 152, 255, 0.2); }
 
 ::-moz-selection {
   background: #1400a9;
@@ -8300,10 +8300,6 @@ footer a:hover {
 #platformWrapper {
   max-width: 1100px; }
 
-.DG_textBlock {
-  float: left;
-  width: 50%; }
-
 .DG_textBlock:nth-child(odd) {
   padding-right: 3rem; }
 
@@ -8337,7 +8333,7 @@ footer a:hover {
   to {
     opacity: 1; } }
 
-.sectionOne__textWrapper, #leftLinks, #graphicDiv1 {
+.sectionOne__textWrapper, #leftLinks, #graphicDiv1, .press, .fadeInLoad {
   animation: fadein 1.5s; }
 
 .sectionBlueBcg {
@@ -8364,6 +8360,9 @@ footer a:hover {
 
 .gray3-bcg {
   background: #d2d2d4; }
+
+table {
+  stroke: #0d2e97; }
 
 @media print {
   * {

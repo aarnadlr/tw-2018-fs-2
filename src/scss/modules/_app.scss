@@ -456,8 +456,8 @@ footer a:hover {
 }
 
 .DG_textBlock{
-  float: left;
-  width: 50%;
+  // float: left;
+  // width: 50%;
   // padding:1rem;
 }
 .DG_textBlock:nth-child(odd){
@@ -511,6 +511,8 @@ footer a:hover {
 }
 
 
+
+
 .fullwidth-wrapper-blue{
   background: $tw-style-guide-blue-1;
 }
@@ -541,7 +543,7 @@ footer a:hover {
 //   }
 // }
 
-.sectionOne__textWrapper, #leftLinks, #graphicDiv1 {
+.sectionOne__textWrapper, #leftLinks, #graphicDiv1, .press, .fadeInLoad {
   animation: fadein 1.5s;
 }
 
@@ -583,4 +585,9 @@ footer a:hover {
 
 .gray3-bcg{
   background: $design2-light-gray-3;
+}
+
+
+table{
+  stroke: $tw-style-guide-blue-1;
 }
