@@ -8345,6 +8345,14 @@ footer a:hover {
     padding-bottom: 220px; } }
 
 @media screen and (min-width: 44em) {
+  .pt200-ns {
+    padding-top: 200px; } }
+
+@media screen and (min-width: 44em) {
+  .pb220-ns {
+    padding-bottom: 220px; } }
+
+@media screen and (min-width: 44em) {
   .sectionMargin-pb180 {
     padding-top: 200px;
     padding-bottom: 180px; } }
@@ -8363,6 +8371,13 @@ footer a:hover {
 
 table {
   stroke: #0d2e97; }
+
+hr {
+  width: 500px;
+  border-top: 1px solid blue;
+  border-bottom: none;
+  border-left: none;
+  border-right: none; }
 
 @media print {
   * {

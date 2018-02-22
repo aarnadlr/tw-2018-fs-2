@@ -555,13 +555,26 @@ footer a:hover {
   // }
 }
 
-.sectionMargin {
+.sectionMargin{
   // background: $tw-style-guide-blue-1;
    @media #{$breakpoint-not-small} {
      padding-top: 200px;
      padding-bottom: 220px;
    }
  }
+
+
+.pt200-ns {
+  @media #{$breakpoint-not-small} {
+    padding-top: 200px;
+  }
+}
+
+.pb220-ns {
+  @media #{$breakpoint-not-small} {
+    padding-bottom: 220px;
+  }
+}
 
  .sectionMargin-pb180 {
   // background: $tw-style-guide-blue-1;
@@ -590,4 +603,13 @@ footer a:hover {
 
 table{
   stroke: $tw-style-guide-blue-1;
+}
+
+
+hr{
+  width: 500px;
+  border-top: 1px solid blue;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 }
