@@ -21,11 +21,16 @@ $design2-blue-highlight: #1a9afc;
 // *******************    TW STYLE GUIDE PDF COLORS:
 // *******************    TW STYLE GUIDE PDF COLORS:
 // *******************    TW STYLE GUIDE PDF COLORS:
-          $tw-style-guide-blue-1:   #0d2e97;
+          $original-blue: #0d2e97;
+          $tw-style-guide-blue-1:   #0a1c57;
           $tw-style-guide-blue-2:   #1a9afc;
 
           $tw-style-guide-beige:    #d6d3c1;
           $tw-style-guide-light-gray:#efefef;
+
+          // NEW MATT TRUDEAU DARK DARK BLUE!!:
+          $tw-style-guide-blue-3:   #0a1c57;
+          
 
 
 
@@ -61,7 +66,7 @@ body {
   margin: 0;
   // background-repeat: no-repeat;
   background-attachment: fixed;
-  color: $design2-blue;
+  color: $original-blue;
 }
 
 .navWrapper {
@@ -417,8 +422,11 @@ footer a:hover {
 }
 
 .topSpacer {
-  height: 70px;
+  height: 0px;
   width: 1100px;
+  @media #{$breakpoint-not-small} {
+    height: 60px;
+  }
 }
 
 
@@ -543,9 +551,7 @@ footer a:hover {
 //   }
 // }
 
-.sectionOne__textWrapper, #leftLinks, #graphicDiv1, .press, .fadeInLoad {
-  animation: fadein 1.5s;
-}
+
 
 .sectionBlueBcg {
  background: $tw-style-guide-blue-1;
@@ -588,9 +594,7 @@ footer a:hover {
   color: $tw-style-guide-blue-2;
 }
 
-.blueText{
-  color: $tw-style-guide-blue-1;
-}
+
 
 .gray2-bcg{
   background: $design2-light-gray-2;
@@ -612,4 +616,21 @@ hr{
   border-bottom: none;
   border-left: none;
   border-right: none;
+}
+
+.originalBlueText{
+  color: $original-blue;
+}
+
+.darkBlueText{
+  color: $tw-style-guide-blue-1 !important;
+}
+
+.lightBlueText{
+  color: $tw-style-guide-blue-2;
+}
+
+
+.sectionOne__textWrapper, #leftLinks, #graphicDiv1, .press, .fadeInLoad {
+  animation: fadein 1.5s;
 }
